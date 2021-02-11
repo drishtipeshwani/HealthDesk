@@ -1,0 +1,62 @@
+.content {
+  background: #abbaab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  justify-content: center;
+}
+.heading {
+  text-align: center;
+  font-weight: 900;
+  font-style: italic;
+  font-family: sans-serif;
+  padding: 30px 20px 30px 20px;
+}
+.card-body {
+  text-align: center;
+  font-family: sans-serif;
+}
+.car-image {
+  align-self: center;
+  padding-top: 20px;
+  max-height: 300px;
+  max-width: 500px;
+  margin: auto;
+}
+.heading-title {
+  text-align: center;
+  font-size: 5rem;
+}
+.text {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+.follow {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.about-text {
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+.link {
+  cursor: pointer;
+}
